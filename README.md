@@ -1,6 +1,8 @@
 # sample
 
-Data to reproduce figures and analyses in JGR Atmospheres paper.
+This repository contains the following files that are associated with the Alter et al. manuscript that was submitted to JGR Atmospheres:
+1) Scripts for configuring the WRF meteorological model for simulations, and
+2) Data to reproduce the figures in the manuscript.
 
 ## Authors
 Ross E. Alter<sup>1*</sup>, Michelle E. Swearingen<sup>2</sup>, and Mihan H. McKenna Taylor<sup>3</sup> 
@@ -12,14 +14,16 @@ Ross E. Alter<sup>1*</sup>, Michelle E. Swearingen<sup>2</sup>, and Mihan H. McK
 <sup>3</sup>U.S. Army Engineer Research and Development Center (ERDC), Vicksburg, MS, USA.
 
 ## Created
-Winter 2021-2022
+September 2022
 
 ## Purpose
-This repository contains data used by Alter et al. for the manuscript "The influence of mesoscale atmospheric convection on local infrasound propagation" submitted for publication in JGR Atmospheres.
+This repository contains data used by Alter et al. for the manuscript "The influence of mesoscale atmospheric convection on local infrasound propagation", which has been submitted for publication in JGR Atmospheres.
 
 ## Data
-This repository contains various scripts for simulations, analysis, and visualization that are aggregated into two main categories:
-1.  Infrasound
-2.  Meteorology
+This repository contains two directories of files associated with the Alter et al. manuscript:
+1.  WRF configuration files
+2.  Figure data
 
-Please see the file structure above for more details.
+The WRF configuration files contain namelist.wps and namelist.input files to run WRF simulations consistent with those in the Alter et al. manuscript.  Each directory is organized by the horizontal resolution of the innermost domain of the associated simulation (e.g., 1-km = innermost domain with 1 km horizontal resolution).
+
+The figure data are the raw data that are used to produce each figure in the Alter et al. manuscript.
